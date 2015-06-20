@@ -1,28 +1,19 @@
-
-
-
-I realised I was doing the same thing over and over when starting a new build so decided to create my own mini bootstrap which has the basics for starting a simple static web site:
-
-
-HTML5 Soundboard
+Trump Soundboard
 ================
 
-About
------
+Donald Trump is running for president. Relives your favourite memories form his announcement speach with this handy app!
 
-I wanted to create simple HTML5 soundboard to play clips of funny things a colleague of mine said. He was unwilling to record said snippets so I decided to fool around with the HTML5 Audio tag to see how easy it was.
+![Join the fun!](/img/readme.jpg)
 
-The javascript was built around this blogcos many thanks :-)
+Installation
+------------
 
-http://blog.mozilla.org/webdev/2009/08/06/html5-audio-soundboard/
+```bash
+git clone https://github.com/ashfurrow/trumpsoundboard.git
+cd trumpsoundboard
+gem install rerun
+npm install -g less
+rerun --dir less "lessc -x less/* > css/main.css"
+```
 
-
-Scope
------
-
-The scope was pretty small for this project:
-
-* Only uses HTML5 Audio (mp3 and ogg)
-* Only needs to work in modern browsers that support <audio>
-* Ideally for use on mobile devices
-
+The navigate to `indes.html` to preview changes.
