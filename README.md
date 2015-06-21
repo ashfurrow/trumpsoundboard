@@ -21,4 +21,4 @@ The navigate to `indes.html` to preview changes.
 Credits
 -------
 
-Original stuff came from [this repo](https://github.com/ashfurrow/newtrumpsoundboard.git), but GItHub doesn't recognize contributions made to forks on your profile's contributions graph.
+Original stuff came from [this repo](https://github.com/perryharlock/soundboard), but GitHub doesn't recognize contributions made to forks on your profile's contributions graph.
